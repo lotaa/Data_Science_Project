@@ -1,7 +1,7 @@
 data_science_project
 ==============================
 
-Frist project in data Science
+First project in data Science
 
 Project Organization
 ------------
