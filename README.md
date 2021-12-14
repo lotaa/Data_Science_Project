@@ -1,7 +1,20 @@
+##  IT educational institute
+
+
+
+
+
+
+
+
+
+
+
+
+
 data_science_project
 ==============================
 
-First project in data Science
 
 Project Organization
 ------------
