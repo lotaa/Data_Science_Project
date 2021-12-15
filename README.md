@@ -36,12 +36,11 @@ I looked at the distributions of the data and the value counts for the various c
 
 ![cluster](https://user-images.githubusercontent.com/49419507/146099315-d3ab2f1a-b32f-420a-8d90-0c7450feda5c.png)
 
+# Model Building
+
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets.
-
 I tried three different models and evaluated them using Mean Absolute Error. I chose MAE because it is relatively easy to interpret and outliers aren’t particularly bad in for this type of model.
-
 I tried three different models:
-
 Logistic Regression:
 – Baseline for the model
 
@@ -55,11 +54,6 @@ Random Forest with PCAs & Hyper parameter tuning:
 # Productionization
 
 In this step, I built a flask API endpoint that was hosted on a local webserver by following along with the TDS tutorial in the reference section above. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary.
-
-
-
-data_science_project
-==============================
 
 
 Project Organization
